@@ -16,7 +16,6 @@ development:
   encoding: utf8
   database: db/development
   username: root
-  password: 
   host: 67.205.154.3
   pool: 5
 
@@ -27,6 +26,6 @@ test:
   <<: *default
   database: db/test
 
-production:
-  <<: *default
-  database: db/production
+# production:
+#   <<: *default
+#   database: db/production
