@@ -5,4 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-video_test = Video.create(title: 'Testing Screencast', video_url: 'https://s3-ap-southeast-1.amazonaws.com/funtastic4thesis/screencast.mp4');
+video_test = Video.create(title: 'ksdakdnaksdn', video_url: 'asdasdasjdnaksdjnaksdnasd');
