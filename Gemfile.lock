@@ -33,6 +33,10 @@ GEM
       activemodel (= 5.0.0.1)
       activesupport (= 5.0.0.1)
       arel (~> 7.0)
+    activerecord-mysql-adapter (0.0.1)
+      activerecord (>= 3.2.9)
+      activesupport (>= 3.2.9)
+      mysql (>= 2.9.0)
     activerecord-mysql2-adapter (0.0.3)
       mysql2
     activesupport (5.0.0.1)
@@ -123,6 +127,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-mysql-adapter (~> 0.0.1)
   activerecord-mysql2-adapter (~> 0.0.3)
   byebug
   listen (~> 3.0.5)
