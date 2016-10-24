@@ -52,7 +52,7 @@ GEM
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
-    jsonapi (0.1.1.beta4)
+    jsonapi (0.1.1.beta5)
       jsonapi-parser (= 0.1.1.beta2)
       jsonapi-renderer (= 0.1.1.beta1)
     jsonapi-parser (0.1.1.beta2)
@@ -70,6 +70,7 @@ GEM
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
     minitest (5.9.1)
+    mysql2 (0.4.5)
     nio4r (1.2.1)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
@@ -132,6 +133,7 @@ DEPENDENCIES
   active_model_serializers (~> 0.10.0)
   byebug
   listen (~> 3.0.5)
+  mysql2
   puma (~> 3.0)
   rails (~> 5.0.0, >= 5.0.0.1)
   spring
@@ -140,4 +142,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   1.13.2
+   1.13.5
